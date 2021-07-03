@@ -1,0 +1,238 @@
+.frame-1 {
+  position: relative;
+  width: 766px;
+  height: 450px;
+  margin: auto;
+  margin-top: 5%;
+  background: #6aa874;
+  box-shadow: 0px 0px 15px 4px rgba(14, 14, 14, 0.25);
+  border-radius: 25px;
+
+}
+.selected-card {
+  position: absolute;
+  width: 728px;
+  height: 400px;
+  left: 19px;
+  top: 25px;
+
+  background: #ebffec;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+.image {
+  position: absolute;
+  width: 317px;
+  height: 38px;
+  left: 208px;
+  top: 20px;
+  font-family: sans-serif;
+  color: #475062;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 100%;
+  text-align: center;
+}
+.line1 {
+  position: absolute;
+  width: 669px;
+  height: 0px;
+  left: 29px;
+  top: 93px;
+
+  border: 0.5px solid #ced2da;
+}
+.aadhaar {
+  position: absolute;
+  width: 351px;
+  height: 204px;
+  left: 37px;
+  top: 119px;
+
+  background: #ffffff;
+  box-shadow: 0px 10px 10px #dae0ec;
+  border-radius: 9px;
+}
+.aadhaar-image img{
+  position: absolute;
+width: 351px;
+height: 204px;
+}
+.frontimg {
+  position: absolute;
+  width: 201.03px;
+  height: 24.36px;
+  left: 415px;
+  top: 140.64px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #475062;
+}
+.backimg {
+  position: absolute;
+  width: 126px;
+  height: 20px;
+  left: 415px;
+  top: 206px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #475062;
+}
+.button1 {
+  position: absolute;
+  width: 74px;
+  height: 23px;
+  left: 617.66px;
+  top: 141px;
+  color: white;
+  font-family: sans-serif;
+  background: #fd6109;
+  opacity: 0.8;
+  border: 0.5px solid #fd6109;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 13px;
+  padding: 4px;
+}
+.button2 {
+  position: absolute;
+  width: 74px;
+  height: 23px;
+  left: 617.66px;
+  top: 206px;
+  color: white;
+  font-family: sans-serif;
+  background: #fd6109;
+  opacity: 0.8;
+  border: 0.5px solid #fd6109;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 13px;
+  padding: 4px;
+}
+.submit {
+  position: absolute;
+  width: 96px;
+  height: 27px;
+  left: 506px;
+  top: 280px;
+  color: white;
+  font-weight: bold;
+  background: #1e8e30;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.line2 {
+  position: absolute;
+  width: 669px;
+  height: 0px;
+  left: 28px;
+  top: 350px;
+
+  border: 0.5px solid #ced2da;
+  transform: rotate(-0.17deg);
+}
+.alert {
+  position: absolute;
+  left: -1.45%;
+  right: 1.14%;
+  bottom: 0.4%;
+
+  font-family: sans-serif;
+  font-style: italic;
+
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #60656a;
+}
+.frame-2 {
+  position: relative;
+  width: 766px;
+  height: 450px;
+  margin: auto;
+  margin-top: 5%;
+  background: #ebffec;
+  box-shadow: 0px 0px 15px 4px rgba(14, 14, 14, 0.25);
+  border-radius: 25px;
+  padding-top: 1%;
+}
+.success{
+  position: relative;
+  z-index: 2;
+  width: 766px;
+    height: 250px;
+    top: 5%;
+    background:  #ebffec;
+    
+}
+.success img{
+  width: 60px;
+    height: 62px;
+    margin-left: 48%;
+    margin-top: 2%;
+}
+.success h1{
+  position: absolute;
+  width: 317px;
+  height: 38px;
+  left: 31%;
+  top: 30%;
+  font-family: sans-serif;
+  color: #475062;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 100%;
+  text-align: center;
+}
+.success h3{
+  position: absolute;
+  width: 317px;
+  height: 38px;
+  left: 31%;
+  top: 54%;
+  font-family: sans-serif;
+  color: #475062;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 100%;
+  text-align: center;
+}
+.close{
+  position: relative;
+  z-index: 1;
+  width: 766px;
+    height: 200px;
+    top: 0%;
+    background: #17b287 ;
+    border-radius: 25px;
+}
+.closebtn{
+  position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 42%;
+    bottom: 32%;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background: #0d4737;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+}
